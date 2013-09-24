@@ -6,6 +6,7 @@ httpProxy.createServer({
         'barbstudios.com': 'barbstudios.com:3000',
         'www.barbstudios.com': 'barbstudios.com:3000',
         'bible.barbstudios.com' : 'barbstudios.com:3001',
-        'www.bible.barbstudios.com' : 'barbstudios.com:3001'
+        'pres.barbstudios.com' : '/var/www/presentation'
+
     }
 }).listen(80);
