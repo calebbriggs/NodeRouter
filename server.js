@@ -2,7 +2,6 @@ var http = require('http')
     , httpProxy = require('http-proxy');
 
 httpProxy.createServer({
-    hostnameOnly: true,
     router: {
         'barbstudios.com': 'barbstudios.com:3000',
         'www.barbstudios.com': 'barbstudios.com:3000',
